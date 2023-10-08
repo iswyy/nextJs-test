@@ -5,7 +5,7 @@ export default function First() {
         <div>
             {obj.map(item=>{
                 return (
-                    <Link key={item.id} href={"/post/postItem?id="+item.id} as={"/post/postItem/"+item.id}>
+                    <Link key={item.id} href={"/post/"+item.id}>
                         <h1>跳转到页面{item.id}</h1>
                     </Link>
                 )

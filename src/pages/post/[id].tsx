@@ -11,7 +11,7 @@ const Post = () => {
                 <button>回主页</button>
             </Link>
             <Link href="/post">
-            <button>回Post</button>
+                <button>回Post</button>
             </Link>
         </div>
     )
